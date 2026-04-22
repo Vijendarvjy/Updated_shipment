@@ -2,5 +2,10 @@ streamlit
 pandas
 numpy
 scikit-learn
-joblib
+xgboost
+lightgbm
 catboost
+joblib
+imbalanced-learn
+matplotlib
+seaborn
