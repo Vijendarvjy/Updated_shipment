@@ -1,2 +1,14 @@
-# Updated_shipment
-Predict whether a shipment will be delivered on time using historical logistics data such as distance, weather, traffic, carrier performance, and dispatch delays. The model helps businesses reduce late deliveries, optimize routes, and improve customer satisfaction through data-driven insights.
+# 📦 Shipment On-Time Delivery Predictor
+
+## 🚀 Overview
+Predict whether a shipment will be delivered on time using ML.
+
+## 🧠 Model
+- XGBoost with Pipeline
+- SMOTE for imbalance
+- Feature engineering included
+
+## 🖥️ Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app/app.py
