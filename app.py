@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load("model/shipment_pipeline.pkl")
+model = joblib.load("shipment_pipeline.pkl")
 
 st.set_page_config(page_title="Shipment Predictor", layout="wide")
 st.title("📦 Shipment On-Time Delivery Predictor")
